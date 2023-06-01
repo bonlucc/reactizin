@@ -1,0 +1,72 @@
+html, body#root {
+	margin: 0;
+	padding: 0;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: white;
+	background-color: rgb(13, 22, 22);
+}
+body{
+	margin: 0px;
+	background-image: url(./components/logo192.png) ;
+	background-position-x: 98%;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+}
+
+.centralize{
+	margin-left: 25px;
+	margin-top: 60px;
+}
+div > p{
+	font-size: large;
+}
+
+ul{
+	margin-left: 40px;
+}
+p{
+	text-align: center;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.534);
+	
+
+	
+}
+.nav-items{
+	display: flex;
+	list-style: none;
+	
+}
+.nav-div{
+	display: flex;
+}
+.nav-items > li{
+	padding: 15px;
+}
+.nav-img{
+	padding-left: 30px;
+	padding-right: 5px;
+	padding-top: 23px;
+	width: 30px;
+	height: 30px;
+}
+.nav-text{
+	color: rgb(0, 195, 255);
+	font-size: x-large;
+	text-align: left;
+}
+
+
+.main-list > li{
+	padding: 10px;
+	line-height: 19px;
+}
+
+.main-list > li::marker{
+	font-size: 1.4rem;
+	color: aquamarine;
+}
